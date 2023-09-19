@@ -4,11 +4,12 @@ using UnityEngine;
 
 namespace SK
 {
-    public class CharacterManager : MonoBehaviour
+
+    public class CharacterLocomotionManager : MonoBehaviour
     {
-        private void Awake()
+        protected virtual void Awake()
         {
-            DontDestroyOnLoad(this);
+
         }
     }
 }
